@@ -1,0 +1,18 @@
+case,id,parked_h,bank_v_at_key_on,bank_switch_closes_s,bank_at_reserve_s,engine_warm_s,cold_boost_requests,cold_refused_engine_cold,cold_boosts_full,cold_boosts_cut_short,cold_boosts_denied,cold_engine_off_s,cold_battery_out_wh,cold_battery_pulses,precharge_from_battery_wh,cold_fuel_ml,hot_fuel_ml,weighted_km_per_l
+Conventional vehicle,A,12,-,-,-,123,0,0,0,0,0,0,0.0,0,0.0,87.44,84.76,45.68
+"Stock iGO Assist, 34 W battery acceptance",B1,12,-,-,-,123,9,1,3,0,5,56,2.377,9,0.0,85.49,82.34,46.87
+"Stock iGO Assist, 68 W battery acceptance",B2,12,-,-,-,123,9,1,5,0,3,56,3.578,11,0.0,85.66,82.43,46.79
+"Stock iGO Assist, 120 W battery acceptance",B3,12,-,-,-,123,9,1,6,0,2,56,4.195,12,0.0,85.72,82.46,46.77
+"CapAssist Y Eco, parked overnight (12 h)",D,12,18.1,-,8,122,10,1,9,0,0,56,0.683,1,0.0,85.64,82.2,46.86
+"CapAssist Y Eco, parked a weekend (60 h)",D,60,13.1,-,31,121,10,1,9,0,0,56,0.683,1,0.0,85.94,82.2,46.78
+"CapAssist Y Eco, parked one week",D,168,2.0,69,102,119,10,1,9,0,0,56,0.703,1,0.02,86.27,82.2,46.69
+"CapAssist Y Eco, parked one month",D,720,0.0,83,116,119,10,1,9,0,0,56,0.687,1,0.004,86.27,82.2,46.69
+"CapAssist Y Eco, 12 h, balancing resistors left connected",D,12,10.8,7,40,120,10,1,9,0,0,56,0.771,1,0.087,86.06,82.2,46.75
+"CapAssist Y Power, parked overnight (12 h)",DP,12,18.8,-,8,122,9,1,8,0,0,56,0.694,1,0.0,85.85,82.46,46.73
+"CapAssist Y Power, parked one month",DP,720,0.0,83,121,119,9,1,8,0,0,56,0.698,1,0.004,86.54,82.46,46.54
+"Eco, one month: engine warms twice as fast",D,720,0.0,83,116,77,10,1,9,0,0,56,0.687,1,0.004,84.92,82.2,47.06
+"Eco, one month: engine warms half as fast",D,720,0.0,83,116,225,10,4,6,0,0,28,0.365,1,0.004,89.99,82.2,45.68
+"Eco, one month: ambient 15 C",D,720,0.0,83,116,205,10,3,7,0,0,28,0.376,1,0.004,88.36,82.2,46.12
+"Eco, one month: pre-charge limited to 2.5 A",D,720,0.0,171,213,122,10,1,7,0,2,34,0.44,1,0.001,87.1,82.2,46.46
+"Eco, one month: pre-charge at 10 A",D,720,0.0,39,74,119,10,1,9,0,0,56,0.717,1,0.016,86.3,82.2,46.68
+"Eco, one month: battery pay-back limited to 34 W",D,720,0.0,83,116,119,10,1,9,0,0,56,0.687,1,0.004,86.27,82.2,46.69

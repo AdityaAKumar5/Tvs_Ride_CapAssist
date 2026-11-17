@@ -1,0 +1,67 @@
+variation_key,variation_label,case_id,fuel_ml,km_per_l,boost_requests,boosts_full,boosts_cut_short,boosts_denied,free_regen_wh,battery_out_wh,battery_pulses,uc_vmin,uc_vmax
+base,Base assumptions,A,84.76,46.4,0,0,0,0,0.242,0.0,0,,
+base,Base assumptions,B1,82.34,47.76,9,4,0,5,0.435,3.751,11,,
+base,Base assumptions,B2,82.43,47.71,9,6,0,3,0.511,4.446,13,,
+base,Base assumptions,B3,82.46,47.69,9,7,0,2,0.708,5.063,14,,
+base,Base assumptions,C,82.2,47.85,10,10,0,0,0.901,0.789,0,15.59,19.79
+base,Base assumptions,D,82.16,47.87,10,10,0,0,0.901,0.789,0,16.15,19.82
+base,Base assumptions,DP,82.41,47.72,9,9,0,0,0.901,0.8,0,12.78,20.5
+base,Base assumptions,DA,82.19,47.85,10,10,0,0,0.901,0.789,0,16.81,21.25
+base,Base assumptions,D8,82.15,47.87,10,10,0,0,0.901,0.789,0,15.5,18.59
+base,Base assumptions,E,81.87,48.04,10,10,0,0,1.813,0.656,0,17.62,21.51
+base,Base assumptions,F,82.06,47.93,10,10,0,0,0.901,0.789,0,,
+load_60w,60 W electrical load,A,86.02,45.72,0,0,0,0,0.358,0.0,0,,
+load_60w,60 W electrical load,B1,83.47,47.12,9,4,0,5,0.546,4.34,11,,
+load_60w,60 W electrical load,B2,83.72,46.98,9,6,0,3,0.681,5.08,13,,
+load_60w,60 W electrical load,B3,83.8,46.93,9,7,0,2,0.746,5.741,14,,
+load_60w,60 W electrical load,C,83.53,47.08,10,10,0,0,0.901,1.2,0,14.75,19.69
+load_60w,60 W electrical load,D,83.57,47.06,10,10,0,0,0.901,1.2,0,15.28,19.7
+load_60w,60 W electrical load,DP,83.72,46.97,9,8,1,0,0.901,1.233,0,12.57,20.15
+load_60w,60 W electrical load,DA,83.6,47.04,10,10,0,0,0.901,1.217,0,15.75,21.12
+load_60w,60 W electrical load,D8,83.57,47.06,10,10,0,0,0.901,1.217,0,14.78,18.49
+load_60w,60 W electrical load,E,83.24,47.25,10,10,0,0,1.813,1.167,0,17.47,21.37
+load_60w,60 W electrical load,F,83.38,47.17,10,10,0,0,0.901,1.2,0,,
+const_power,Assist at constant 346 W at any engine speed,A,84.76,46.4,0,0,0,0,0.242,0.0,0,,
+const_power,Assist at constant 346 W at any engine speed,B1,82.26,47.81,9,3,0,6,0.435,4.556,10,,
+const_power,Assist at constant 346 W at any engine speed,B2,82.66,47.58,9,4,0,5,0.525,5.606,11,,
+const_power,Assist at constant 346 W at any engine speed,B3,82.78,47.51,9,6,0,3,0.713,6.656,13,,
+const_power,Assist at constant 346 W at any engine speed,C,82.62,47.6,10,8,2,0,0.901,0.8,0,12.53,19.77
+const_power,Assist at constant 346 W at any engine speed,D,82.46,47.69,10,8,2,0,0.901,0.789,0,12.93,19.82
+const_power,Assist at constant 346 W at any engine speed,DP,82.74,47.53,9,5,4,0,0.901,0.8,0,12.61,20.18
+const_power,Assist at constant 346 W at any engine speed,DA,82.54,47.65,10,8,2,0,0.901,0.789,0,12.56,21.25
+const_power,Assist at constant 346 W at any engine speed,D8,82.46,47.7,10,9,1,0,0.901,0.8,0,12.51,18.58
+const_power,Assist at constant 346 W at any engine speed,E,82.2,47.84,10,10,0,0,1.813,0.678,0,16.04,21.51
+const_power,Assist at constant 346 W at any engine speed,F,82.39,47.73,10,10,0,0,0.901,0.8,0,,
+mass_253,"253 kg, fully laden",A,89.88,43.76,0,0,0,0,0.381,0.0,0,,
+mass_253,"253 kg, fully laden",B1,87.42,44.99,9,4,0,5,0.674,3.751,11,,
+mass_253,"253 kg, fully laden",B2,87.51,44.94,9,6,0,3,0.75,4.446,13,,
+mass_253,"253 kg, fully laden",B3,87.57,44.91,9,7,0,2,0.891,5.063,14,,
+mass_253,"253 kg, fully laden",C,87.23,45.09,10,10,0,0,1.369,0.722,0,15.44,20.2
+mass_253,"253 kg, fully laden",D,87.18,45.11,10,10,0,0,1.369,0.711,0,15.99,20.24
+mass_253,"253 kg, fully laden",DP,87.4,45.0,9,9,0,0,1.369,0.8,0,12.57,20.66
+mass_253,"253 kg, fully laden",DA,87.21,45.1,10,10,0,0,1.369,0.722,0,16.62,21.7
+mass_253,"253 kg, fully laden",D8,87.17,45.12,10,10,0,0,1.369,0.722,0,15.37,18.92
+mass_253,"253 kg, fully laden",E,86.59,45.42,10,10,0,0,2.963,0.389,0,17.62,21.71
+mass_253,"253 kg, fully laden",F,87.09,45.16,10,10,0,0,1.369,0.711,0,,
+low_drag,Less engine drag (idle fuel 0.10 L/h),A,67.71,58.08,0,0,0,0,0.428,0.0,0,,
+low_drag,Less engine drag (idle fuel 0.10 L/h),B1,66.26,59.35,9,4,0,5,0.761,3.751,11,,
+low_drag,Less engine drag (idle fuel 0.10 L/h),B2,66.35,59.27,9,6,0,3,0.856,4.446,13,,
+low_drag,Less engine drag (idle fuel 0.10 L/h),B3,66.41,59.22,9,7,0,2,0.976,5.063,14,,
+low_drag,Less engine drag (idle fuel 0.10 L/h),C,66.06,59.54,10,10,0,0,1.514,0.711,0,15.56,20.27
+low_drag,Less engine drag (idle fuel 0.10 L/h),D,66.01,59.58,10,10,0,0,1.514,0.7,0,16.12,20.31
+low_drag,Less engine drag (idle fuel 0.10 L/h),DP,66.22,59.39,9,9,0,0,1.514,0.8,0,12.73,20.66
+low_drag,Less engine drag (idle fuel 0.10 L/h),DA,66.03,59.56,10,10,0,0,1.514,0.711,0,16.77,21.76
+low_drag,Less engine drag (idle fuel 0.10 L/h),D8,66.0,59.59,10,10,0,0,1.514,0.711,0,15.47,18.96
+low_drag,Less engine drag (idle fuel 0.10 L/h),E,65.48,60.06,10,10,0,0,2.92,0.433,0,17.62,21.53
+low_drag,Less engine drag (idle fuel 0.10 L/h),F,65.91,59.67,10,10,0,0,1.514,0.7,0,,
+normal_speed,"WMTC Part 1, normal speed",A,88.64,45.86,0,0,0,0,0.253,0.0,0,,
+normal_speed,"WMTC Part 1, normal speed",B1,86.21,47.15,9,4,0,5,0.451,3.754,11,,
+normal_speed,"WMTC Part 1, normal speed",B2,86.32,47.09,9,6,0,3,0.522,4.476,13,,
+normal_speed,"WMTC Part 1, normal speed",B3,86.35,47.07,9,7,0,2,0.708,5.096,14,,
+normal_speed,"WMTC Part 1, normal speed",C,86.09,47.22,10,10,0,0,0.9,0.789,0,15.59,19.79
+normal_speed,"WMTC Part 1, normal speed",D,86.04,47.24,10,10,0,0,0.9,0.789,0,16.15,19.82
+normal_speed,"WMTC Part 1, normal speed",DP,86.3,47.11,9,9,0,0,0.9,0.8,0,12.78,20.44
+normal_speed,"WMTC Part 1, normal speed",DA,86.07,47.23,10,10,0,0,0.9,0.789,0,16.81,21.25
+normal_speed,"WMTC Part 1, normal speed",D8,86.04,47.25,10,10,0,0,0.9,0.789,0,15.5,18.59
+normal_speed,"WMTC Part 1, normal speed",E,85.78,47.39,10,10,0,0,1.758,0.656,0,17.62,21.51
+normal_speed,"WMTC Part 1, normal speed",F,85.94,47.3,10,10,0,0,0.9,0.789,0,,

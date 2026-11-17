@@ -1,0 +1,13 @@
+id,case,fuel_ml,km_per_l,boost_requests,boosts_full,boosts_cut_short,boosts_denied,boost_wh,free_regen_wh,battery_out_wh,battery_pulses,engine_off_s,uc_vmin,uc_vmax
+A,"Conventional, no assist or stop-start",84.76,46.4,0,0,0,0,0.0,0.242,0.0,0,0,,
+B1,"Stock iGO Assist, battery takes 34 W",82.34,47.76,9,4,0,5,1.99,0.435,3.751,11,74,,
+B2,"Stock iGO Assist, battery takes 68 W",82.43,47.71,9,6,0,3,2.596,0.511,4.446,13,74,,
+B3,"Stock iGO Assist, battery takes 120 W",82.46,47.69,9,7,0,2,3.125,0.708,5.063,14,74,,
+C,"CapAssist X, Eco, 160 W",82.2,47.85,10,10,0,0,2.092,0.901,0.789,0,74,15.59,19.79
+D0,"CapAssist Y, Eco, 160 W, one-boost reserve",82.17,47.86,10,10,0,0,2.092,0.901,0.789,0,74,12.63,17.12
+D,"CapAssist Y, Eco, 160 W",82.16,47.87,10,10,0,0,2.092,0.901,0.789,0,74,16.15,19.82
+DP,"CapAssist Y, Power, 160 W",82.41,47.72,9,9,0,0,3.887,0.901,0.8,0,74,12.78,20.5
+DA,"CapAssist Y, Eco, 160 W, aged and hot bank",82.19,47.85,10,10,0,0,2.092,0.901,0.789,0,74,16.81,21.25
+E,"CapAssist Y, Eco, 430 W generator",81.87,48.04,10,10,0,0,2.092,1.813,0.656,0,74,17.62,21.51
+D8,"CapAssist Y, Eco, 160 W, 8-cell bank (20 V)",82.15,47.87,10,10,0,0,2.092,0.901,0.789,0,74,15.5,18.59
+F,"High-power lithium 12 V, Eco, 160 W",82.06,47.93,10,10,0,0,2.092,0.901,0.789,0,74,,

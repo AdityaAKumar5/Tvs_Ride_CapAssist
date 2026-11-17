@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F4F7FB; --panel: #FFFFFF; --soft: #F0F4F9; --line: #E2E8F0;
+  --ink: #182230; --muted: #66758B; --head: #071F46;
+  --grid: rgba(11, 58, 131, 0.07);
+}
+.dark {
+  --bg: #050F22; --panel: #0B1A36; --soft: #10244A; --line: #1D3560;
+  --ink: #E6EDF7; --muted: #94A6C2; --head: #FFFFFF;
+  --grid: rgba(120, 160, 230, 0.08);
+}
+html, body, #root { height: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: Inter, system-ui, sans-serif; font-size: 14px;
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.num { font-variant-numeric: tabular-nums; }
+.h-tech { font-family: Rajdhani, Inter, sans-serif; font-weight: 600; letter-spacing: 0.02em; color: var(--head); }
+select, input, button { font-family: inherit; }
+/* energy-flow animation: dashes travel along the path in its drawn direction */
+@keyframes flow { to { stroke-dashoffset: -28; } }
+.flow { stroke-dasharray: 8 6; animation: flow 0.9s linear infinite; }
+@media (prefers-reduced-motion: reduce) { .flow { animation: none; } }
+/* presentation mode enlarges type for a projector */
+.present .text-xs { font-size: 0.85rem; }
+.present .text-sm { font-size: 1rem; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 6px; }
+input[type='range'] { accent-color: #E11B22; }
